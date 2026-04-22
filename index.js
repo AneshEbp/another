@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from Express (ES Modules) 🚀' });
+  res.json({ message: 'Hello from autodeployed code🚀' });
 });
 
 app.get('/api', (req, res) => {
